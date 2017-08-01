@@ -1,0 +1,9 @@
+Facem o parcurgere dfs
+Avem un hashtable care tine sumele partiale
+
+In hashtable salvam ca si key sumele partiale si valori indecsi elementelor care au acea suma partiala 
+
+Am ajuns la elementul X 
+	SumaPartiala = SumaPartialaPrecedenta + valoareNodCurent
+	--> cautam in hashtable $(SumaPartiala - $sumaCautata) --> daca gasim --> inseamna ca am gasit inca atatea path-uri
+	cati indecsi avem in hashtable la valoarea respectiva 

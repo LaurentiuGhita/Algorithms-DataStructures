@@ -1,0 +1,27 @@
+//solutia este un vector de vectori 
+
+BSTSeq(Node* pRoot)
+{
+	if(pRoot == NULL)
+	{
+		creare vector de vectori ( vector de permutari) empty
+		si return acest set de vectori
+	}
+
+	if(pRoot->pLeft == NULL && pRoot->pRight == NULL)
+	{
+		creare vectori de vectori
+		creat vector cu un singur element (pRoot->mVal)
+		return set de vectori
+	}
+
+
+	P1 = set permutari ordonae subarbore stang
+	P2 = set permutari ordonate subarbore drept
+
+	X - set permutari ordonate folosind P1 si P2
+
+	pt fiecare permutare din X adaugam valoarea nodului curent la inceput
+	si returnam vectorul de permutari
+}
+

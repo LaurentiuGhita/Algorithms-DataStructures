@@ -1,0 +1,10 @@
+Backtracking notes
+
+- model the search solution as a vector a = (a1, .. an)
+- at each step we try to extend the partial solution a = (a1, .. ak) 
+  by adding another el
+    --> after adding we mst test if what we have is a solution
+            yes --> print or count it
+            no --> check if partial solution is still extensible
+
+- view it as a DFS
