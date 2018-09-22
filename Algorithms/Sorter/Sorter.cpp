@@ -127,6 +127,8 @@ void Sorter::Merge(std::vector<int>& elements, int nStart, int nMiddle, int nEnd
 
 void Sorter::MergeSort(int nStart, int nEnd)
 {
+	if(nEnd - nstart == 1) 
+		return; // consider it sorted
 	if(nStart < nEnd)
 	{
 		int nMiddle = (nStart + nEnd) / 2;
